@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo 앱</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>할 일 목록</h1>
+
+    <!-- 탭 + 개수 뱃지 -->
+    <div class="tab-bar" role="tablist">
+      <button class="tab-btn active" data-tab="all"    role="tab">전체보기 <span class="badge" id="badge-all">0</span></button>
+      <button class="tab-btn"        data-tab="active" role="tab">진행중 <span class="badge" id="badge-active">0</span></button>
+      <button class="tab-btn"        data-tab="done"   role="tab">완료 <span class="badge" id="badge-done">0</span></button>
+    </div>
+
+    <!-- 입력 영역 -->
+    <div class="input-area">
+      <input type="text" id="todoInput" placeholder="할 일을 입력하세요..." />
+      <button id="addBtn">추가</button>
+    </div>
+
+    <!-- 할 일 목록 -->
+    <ul id="todoList"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

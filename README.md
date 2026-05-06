@@ -45,13 +45,6 @@ todo-app/
 └── app.js       # 전체 동작 로직
 ```
 
-## 기술 스택
-
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- localStorage API
-
 ## 주요 함수 (app.js)
 
 | 함수 | 역할 |
